@@ -1,0 +1,35 @@
+# Configuração de final de linha
+* text=auto
+
+# Tratamento específico para arquivos de código-fonte Java
+*.java text eol=lf
+
+# Tratamento específico para arquivos XML
+*.xml text eol=lf
+
+# Tratamento específico para arquivos de propriedades
+*.properties text eol=lf
+
+# Binários (imagens, etc.)
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Ignorar arquivos de compilação
+*.class -diff
+*.jar -diff
+*.war -diff
+
+# Configuração para arquivos de configuração da IDE NetBeans
+*.nbattrs text eol=lf
+*.form text eol=lf
+
+# Arquivos de log
+*.log text eol=lf
+
+# Configuração específica para o Maven Wrapper
+/.mvn/wrapper/maven-wrapper.jar binary
+
+# Certifique-se de que os scripts do Maven Wrapper tenham finais de linha LF
+*.sh text eol=lf
+*.bat text eol=crlf

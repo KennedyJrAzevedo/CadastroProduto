@@ -1,0 +1,20 @@
+# Ignore arquivos e diretórios de compilação
+/target/
+*.class
+
+# Ignore configurações específicas da IDE NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos gerados pelo Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
